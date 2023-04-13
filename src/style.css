@@ -1,0 +1,153 @@
+body {
+  background-color: rgb(172, 159, 143) !important;
+}
+.ul-style {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+#navbar {
+  margin-top: 30px;
+  border: solid;
+  border-color: rgb(212, 178, 135);
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: rgb(176, 150, 117);
+}
+#search {
+  width: 75%;
+  height: 30px;
+  margin-top: 50px;
+}
+.style-button-member {
+  background-color: #eee659 !important;
+  display: block !important;
+
+  margin-left: 45%;
+}
+
+#select-style {
+  width: 100%;
+}
+.style-button-task {
+  background-color: #eee659 !important;
+}
+
+.style-botton {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.tabel {
+  width: 75%;
+  margin-left: 150px;
+  margin-top: 100px;
+
+  border-collapse: collapse !important;
+  max-width: 900;
+}
+/* table {
+  border-collapse: collapse !important;
+  max-width: 900;
+  
+  
+} */
+table th,
+table td {
+  border: 1px solid rgb(226, 158, 41);
+  padding: 8px;
+}
+
+.icons {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  right: 20px;
+  display: flex;
+  gap: 0.5rem;
+}
+.icon {
+  cursor: pointer;
+  font-size: 20px;
+  color: rgb(13, 13, 62);
+}
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.alluser {
+  border: 2px black solid !important;
+  border-radius: 30px;
+  width: 80%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+
+  transition: all 0.5s;
+  margin: 20px;
+}
+.divcss {
+  box-shadow: 10px 5px 5px rgb(200, 199, 199);
+  transform: scale(1, 1);
+  cursor: pointer;
+}
+.history {
+  border: 2px rgb(226, 158, 41) solid !important;
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  transition: all 0.5s;
+  height: 50px;
+}
+.history-p {
+  text-align: center;
+}
+.span-style {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 5px;
+  margin: 0px 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+.tasks {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+/* #them {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s, color 0.2s;
+} */
+.information {
+  display: flex;
+  justify-content: space-between;
+}
+.divinformation {
+  width: 50%;
+
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.divimage {
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.lamp {
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+.divbutton {
+  margin-bottom: 20px;
+}
