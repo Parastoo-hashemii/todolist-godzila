@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:5000";
+const url = "https://todo-list-godzila-server.onrender.com";
 export const getAlltask = async () => {
   const response = await axios.get(`${url}/task`);
   return response.data;
